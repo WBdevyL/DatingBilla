@@ -1,0 +1,209 @@
+
+.l1{
+line-height: 1.5;
+text-align: center;
+padding: 2rem;
+font-family:Montserrat;
+font-size: 2.55rem;
+font-weight: 900;
+color: white;
+margin-top: 11%;
+position: relative;
+left: 5%;
+zoom: 111%;
+text-shadow: 5px 5px 5px #F7A440;
+
+}
+.i{
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px black;
+}
+.i2{
+    color: #F6DCBF;
+    
+}
+.navcss{
+    background-color: #F7A440;
+    font-size: 1.2rem;
+    position: -webkit-sticky;
+    top: 3px;
+    border-bottom: 2px solid #F6DCBF;
+
+}
+.sec1{
+    background-color: #E1701A;
+    text-align: center;
+    padding-bottom: 21px;
+    border-bottom: 2px solid #F6DCBF;
+}
+
+.TinCat{
+    background-color: #E1701A; 
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    font-family: Ubuntu Mono;
+}
+.TinCat:hover{
+    background-color: #E1701A; 
+    border: none;
+    border-radius: 5%;
+    color: #AAAAAA;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    font-family: Ubuntu Mono;
+}
+
+.download-btn{
+    margin-left: 21px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    zoom: 120%;
+}
+.catphone{
+    width: auto;
+    height: auto;
+    max-height: 90%;
+    border-radius: 7%;
+    border: 5px solid #F6DCBF;
+    transform: rotate(21deg);
+    box-shadow: 10px 10px 50px #ccc;
+    position: relative;
+    top: 21%;
+    zoom: 54%;
+    z-index: 0; 
+}
+
+/* features */
+
+#features{
+    background-color: #AAAAAA;
+    border-bottom: 2px solid #F6DCBF;
+    position: relative;
+    z-index: 1;
+
+}
+.padfea{
+    padding: 5% 3%;
+    text-align: center;
+    color: white;
+
+    
+}
+.f1{
+    zoom: 35%;
+}
+.feah1{
+   font-family: Montserrat;
+   font-size: 2rem;
+   font-weight: 900;
+   box-shadow: 10px 0px 50px black;
+   border-bottom: 3px solid #E1701A ;  
+}
+.feah1:hover{
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 900;
+    box-shadow: 10px 0px 50px black;
+    border: 1px solid #F6DCBF ;  
+    
+ }
+.feades{
+    font-family: Ubuntu Mono;
+    color: whtie;
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: 5px -3px 11px #E1701A;
+}
+#testimonials{
+    background-color: #E1701A;
+    text-align: center;
+    padding: 3%;
+    font-family: Montserrat;
+    font-size: 2.1rem;
+    color: whitesmoke;
+    line-height: 1.5rem;
+}
+.h2testi{
+    font-family: Montserrat;
+    font-size: 3rem;
+    color: whitesmoke;
+    line-height: 5rem;
+    font-weight: bolder;
+    
+}
+.catpictestimonial{
+    border-radius: 100%;
+    padding: 2.5%;
+    
+}
+.testimonial2{
+    border-radius: 100%;
+    padding: 2.5%;
+    
+}
+.carousel-item{
+    padding: 0% 15%;
+}
+/* /////////////// press ///////////////////*/
+#presszoom{
+    zoom: 70%;
+}
+#press{
+    background-color: #E1701A;
+    text-align: center;
+    padding: 3% 0%;
+    box-shadow: 1px 5px #F6DCBF;
+    
+}
+.presspics{
+    padding: 5% 2%;
+}
+/* ////////////////pricing///////////////// */
+
+#pricing{
+    padding: 3% 5%;
+    background-color: whitesmoke;
+    font-family: Montserrat;
+   font-size: 2rem;
+   font-weight: 900;
+   box-shadow: 10px 0px 50px black;
+   border-top: 3px solid #E1701A ;
+   border-bottom: 3px solid #E1701A ;
+}
+.cardcss{
+    padding: 0% 0% 3%;
+    margin: 1% 2%;
+}
+/* /////////////CALL TO ACTION//////////// */
+#cta{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 900;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    
+}
+.end-btn{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* ////////////FOOTER/////////// */
+#footer{
+    color: black;
+    font-size: .5rem;
+    text-align: center;
+    background-color: #AAAAAA;
+}
