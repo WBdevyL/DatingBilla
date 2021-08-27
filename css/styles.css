@@ -1,7 +1,11 @@
 
+.adjLayer{
+    position: relative;
+    z-index: 0;
+}
 .l1{
 line-height: 1.5;
-text-align: center;
+text-align: left;
 padding: 2rem;
 font-family:Montserrat;
 font-size: 2.55rem;
@@ -9,8 +13,6 @@ font-weight: 900;
 color: white;
 margin-top: 11%;
 position: relative;
-left: 5%;
-zoom: 111%;
 text-shadow: 5px 5px 5px #F7A440;
 
 }
@@ -73,15 +75,16 @@ text-shadow: 5px 5px 5px #F7A440;
 .catphone{
     width: auto;
     height: auto;
-    max-height: 90%;
+    max-height: 100%;
     border-radius: 7%;
     border: 5px solid #F6DCBF;
-    transform: rotate(21deg);
+    transform: rotate(10deg);
     box-shadow: 10px 10px 50px #ccc;
     position: relative;
-    top: 21%;
+    top: 10%;
+    right: 7%;
     zoom: 54%;
-    z-index: 0; 
+    z-index: -1; 
 }
 
 /* features */
@@ -180,6 +183,8 @@ text-shadow: 5px 5px 5px #F7A440;
    box-shadow: 10px 0px 50px black;
    border-top: 3px solid #E1701A ;
    border-bottom: 3px solid #E1701A ;
+   position: relative;
+   z-index: 1;
 }
 .cardcss{
     padding: 0% 0% 3%;
@@ -187,18 +192,22 @@ text-shadow: 5px 5px 5px #F7A440;
 }
 /* /////////////CALL TO ACTION//////////// */
 #cta{
+    background-color: #E1701A;
     text-align: center;
     color: white;
     text-shadow: 5px 5px 5px black;
-    font-weight: 900;
-    font-family: Montserrat;
-    font-size: 1.1rem;
+    box-shadow: 10px 0px 50px black;
     
+}
+.lastline{
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    padding: 3% 7%;
 }
 .end-btn{
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 15px;
+    margin-bottom: 50PX;
 }
 /* ////////////FOOTER/////////// */
 #footer{
@@ -206,4 +215,37 @@ text-shadow: 5px 5px 5px #F7A440;
     font-size: .5rem;
     text-align: center;
     background-color: #AAAAAA;
+    padding-top: 15px;
+    position: relative;
+    z-index: -1;
+}
+.device{
+    display: none;
+    font-size: .5rem;
+    position: relative;
+    
+}
+
+/* /////////////////MEDIAQUERY///////////////////// */
+
+
+@media screen and (max-width: 480px) {
+    #device1{
+        display: block;
+    }
+}
+@media  screen and (min-width:480px) and (max-width: 1024px) {
+    #device2{
+        display: block;
+    }
+}
+@media  screen and (min-width:1024px) and  (max-width: 1400px) {
+    #device3{
+        display: block;
+    }
+}
+@media  screen and (min-width:1400px) {
+    #device4{
+        display: block;
+    }
 }
